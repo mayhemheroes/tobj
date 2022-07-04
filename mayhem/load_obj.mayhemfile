@@ -1,0 +1,7 @@
+project: tobj
+target: load-obj
+
+cmds:
+  - cmd: /load_obj
+  - cmd: /load_obj_no_inst @@
+    libfuzzer: false
