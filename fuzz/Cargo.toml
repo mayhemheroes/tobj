@@ -9,7 +9,7 @@ cargo-fuzz = true
 
 [dependencies]
 libfuzzer-sys = "0.4"
-ahash = "*"
+ahash = { version = "0.7.6", optional = true }
 
 [dependencies.tobj]
 path = ".."
